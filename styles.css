@@ -30,6 +30,9 @@ img {
 {
 display: flex;
 justify-content: space-between;
+padding: 10px 10px;
+background-color:rgba(240, 248, 245, .15);
+align-items: center;
 
 }
 
@@ -69,9 +72,9 @@ display: flex;
 .snackbox-content,
 .about-us 
 {
-
+    color: white;
     padding: 50px;
-    background-color: rgba(112, 128, 144, .75)
+    background-color: rgba(12, 20, 27, 0.60)
 
 }
 
