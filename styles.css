@@ -28,7 +28,8 @@ img {
 
 .header
 {
-
+display: flex;
+justify-content: space-between;
 
 }
 
@@ -59,7 +60,7 @@ display: flex;
 
 .footer
 {
-
+display: flex;
 
 }
 
@@ -71,5 +72,13 @@ display: flex;
 
     padding: 50px;
     background-color: rgba(112, 128, 144, .75)
+
+}
+
+
+.logo {
+
+height: 75px;
+width: 75px;
 
 }
