@@ -3,6 +3,8 @@ display: flex;
 flex-direction: column;
 min-height: 100vh;
 margin: 0;
+gap: 120px;
+padding: 50px;
 }
 
 #background {
@@ -44,18 +46,28 @@ display: flex;
 
 .snackbox-content
 {
-
+display: flex;
 
 }
 
 .about-us
 {
-
+display: flex;
     
 }
 
 .footer
 {
 
+
+}
+
+.landing-intro,
+.snackbox-preview,
+.snackbox-content,
+.about-us 
+{
+
+    padding: 50px;
 
 }
