@@ -4,6 +4,18 @@ min-height: 100vh;
 margin: 0;
 }
 
+#background {
+
+    position: fixed;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: -2;
+
+}
+
 .header
 {
 
@@ -37,5 +49,5 @@ margin: 0;
 .footer
 {
 
-    
+
 }
